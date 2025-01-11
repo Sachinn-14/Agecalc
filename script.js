@@ -62,7 +62,6 @@ function calc() {
     span[4].textContent = minute;
     span[5].textContent = seconds;
 
-    dat.input.value = '';
-    resultElement.value = '';
+   
     setInterval(calc, 1000); // Update the time every second
 }
